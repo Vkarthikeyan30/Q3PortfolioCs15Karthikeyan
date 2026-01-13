@@ -30,7 +30,17 @@
     <input type="text" id="PhoneNo" placeholder="Phone Number:" />
     <p></p>
 
-    <p>Intern/Extern</p>
+    <p>Grade Level:</p>
+    <select>
+        <option value="option1">Grade 7</option>
+        <option value="option2">Grade 8</option>
+        <option value="option3">Grade 9</option>
+        <option value="option4">Grade 10</option>
+        <option value="option5">Grade 11</option>
+        <option value="option6">Grade 12</option>
+      </select>
+
+    <p>Intern/Extern:</p>
     <input type="radio" id="ext" name="thein" value="Extern">
 <label for="ext">Extern</label><br>
     <input type="radio" id="int" name="theout" value="Intern">
@@ -38,14 +48,15 @@
 
     <p>What club do you want to join?</p>
     <select>
-        <option value="option1">Fantastic Fish</option>
-        <option value="option2">Sensational Squids</option>
-        <option value="option3">Sensible Salamanders</option>
-        <option value="option4">Courteous Crabs</option>
-        <option value="option5">Turbulent Turtles</option>
+        <option value="option7">Fantastic Fish</option>
+        <option value="option8">Sensational Squids</option>
+        <option value="option9">Sensible Salamanders</option>
+        <option value="option10">Courteous Crabs</option>
+        <option value="option11">Turbulent Turtles</option>
       </select>
 
     <p>Why do you want to join?</p>
+
     <form action="/submit" method="post">
         <label for="reasons"></label>
         <textarea id="reasons" name="reasons" rows="4" cols="50">
@@ -55,7 +66,9 @@
         </form>
         <p></p>
 
+    <p>Recheck your information.</p>
     <button onsubmit="">Accept Input</button>
+    <button onreset="">Reset Input</button>
 </body>
 
 </html>
